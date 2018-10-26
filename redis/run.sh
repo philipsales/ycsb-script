@@ -22,6 +22,10 @@ function runtask() {
     . $SETTINGS_DIR/$DB.cfg
     cd $YCSB_BIN
 
+    echo '---start script----'
+    echo "$COMMAND $DB  -P workloads/workloada -P $SETTINGS_DIR/$DAT_FILE -s -p $HOSTS  -p $PORT  > $RESULT_FILE  -src $DATA_DIR" 
+    echo '---end script----'
+
     ./bin/ycsb $COMMAND $DB \
         -P workloads/$WORKLOAD  \
         -P $SETTINGS_DIR/$DAT_FILE \
@@ -29,5 +33,6 @@ function runtask() {
         -p $HOSTS \
         -p $PORT \
         > $RESULT_FILE \
-        -src $DATA_DIR/$THROUGHPUT
+        -src $DATA_DIR
+        #-src $DATA_DIR/$THROUGHPUT
 }
