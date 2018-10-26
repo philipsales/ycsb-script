@@ -1,0 +1,343 @@
+2018-10-25 19:46:24,721 - INFO - This is a test log message.
+2018-10-25 19:50:19,471 - DEBUG - CACHEDIR=/Users/ghost/.matplotlib
+2018-10-25 19:50:19,474 - DEBUG - Using fontManager instance from /Users/ghost/.matplotlib/fontList.json
+2018-10-25 19:50:19,631 - DEBUG - backend agg version v2.2
+2018-10-25 20:53:54,107 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:53:54,109 - ERROR - Uncaught exception in zmqstream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:53:54,110 - ERROR - Exception in callback BaseAsyncIOLoop._handle_events(14, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(14, 1)>
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:55:43,912 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:55:43,913 - ERROR - Uncaught exception in zmqstream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:55:43,913 - ERROR - Exception in callback BaseAsyncIOLoop._handle_events(14, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(14, 1)>
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:55:43,917 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:55:43,917 - ERROR - Uncaught exception in zmqstream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:55:43,918 - ERROR - Exception in callback BaseAsyncIOLoop._handle_events(20, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(20, 1)>
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:55:47,746 - INFO - This is a test log message.
+2018-10-25 20:55:57,380 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:55:57,380 - ERROR - Uncaught exception in zmqstream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:55:57,380 - ERROR - Exception in callback BaseAsyncIOLoop._handle_events(14, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(14, 1)>
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:58:55,710 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:58:55,711 - ERROR - Uncaught exception in zmqstream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:58:55,716 - ERROR - Exception in callback BaseAsyncIOLoop._handle_events(20, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(20, 1)>
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:59:00,446 - INFO - This is a test log message.
+2018-10-25 20:59:01,624 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:59:01,624 - ERROR - Uncaught exception in zmqstream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:59:01,625 - ERROR - Exception in callback BaseAsyncIOLoop._handle_events(14, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(14, 1)>
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:59:54,880 - ERROR - Uncaught exception in ZMQStream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:59:54,882 - ERROR - Uncaught exception in zmqstream callback
+Traceback (most recent call last):
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 20:59:54,884 - ERROR - Exception in callback BaseAsyncIOLoop._handle_events(20, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(20, 1)>
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 127, in _run
+    self._callback(*self._args)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 283, in dispatcher
+    return self.dispatch_shell(stream, msg)
+  File "/Users/ghost/src/virtual_env/jupyther3.6/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 239, in dispatch_shell
+    sys.stdout.flush()
+ValueError: I/O operation on closed file.
+2018-10-25 21:10:51,218 - INFO - This is a test log message.
