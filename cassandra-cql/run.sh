@@ -29,5 +29,5 @@ function runtask() {
         -p $HOSTS \
         -p $PORT \
         > $RESULT_FILE \
-        -src $DATA_DIR/$THROUGHPUT
+        -src $DATA_DIR
 }

@@ -19,7 +19,7 @@ for dat_file in ${DAT_FILES[*]}
 do
     DAT_FILE=$dat_file
 
-    counter=4
+    counter=1
     echo $TOTAL_RUN
 
     until [ $counter -gt $TOTAL_RUN ]
