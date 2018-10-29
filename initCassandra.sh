@@ -24,7 +24,7 @@ do
 
     until [ $counter -gt $TOTAL_RUN ]
     do
-        cleartable
+        #cleartable
         wait
         loaddata "$OUTPUT_DIR" "$DB" "$counter" "$DAT_FILE"
         wait

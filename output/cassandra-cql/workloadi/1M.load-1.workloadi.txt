@@ -10,14 +10,14 @@ Caused by: com.datastax.driver.core.exceptions.NoHostAvailableException: All hos
 	at com.datastax.driver.core.Cluster.getMetadata(Cluster.java:393)
 	at com.yahoo.ycsb.db.CassandraCQLClient.init(CassandraCQLClient.java:212)
 	... 3 more
-[OVERALL], RunTime(ms), 4272
+[OVERALL], RunTime(ms), 1185
 [OVERALL], Throughput(ops/sec), 0.0
 [TOTAL_GCS_PS_Scavenge], Count, 2
-[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 299
-[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 6.999063670411985
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 342
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 28.860759493670884
 [TOTAL_GCS_PS_MarkSweep], Count, 0
 [TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
 [TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
 [TOTAL_GCs], Count, 2
-[TOTAL_GC_TIME], Time(ms), 299
-[TOTAL_GC_TIME_%], Time(%), 6.999063670411985
+[TOTAL_GC_TIME], Time(ms), 342
+[TOTAL_GC_TIME_%], Time(%), 28.860759493670884
