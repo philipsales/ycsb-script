@@ -1,27 +1,27 @@
 #!/bin/bash
 
-SRC_DIR="$HOME/src/github"
-YCSB_SRC="YCSB4"
+SRC_DIR="$HOME/src"
+YCSB_SRC="ycsb"
 SYNTHEA_SRC="synthea"
 
 YCSB_DIR="$SRC_DIR/$YCSB_SRC"
-YCSB_BIN="$YCSB_DIR/ycsb-0.14.0"
+YCSB_BIN="$YCSB_DIR"
 
-SCRIPT_DIR="$SRC_DIR/YCSB-scripts"
+SCRIPT_DIR="$SRC_DIR/ycsb-script"
 SETTINGS_DIR="$SCRIPT_DIR/settings"
 RESULTS_DIR="$SCRIPT_DIR/output"
 
 SYNTHEA_DIR="$SRC_DIR/$SYNTHEA_SRC"
-DATA_DIR="$SYNTHEA_DIR/output"
+#DATA_DIR="$SYNTHEA_DIR/output"
+DATA_DIR="$SRC_DIR/data/Patient.1M"
 
-TOTAL_RUN="1"
-#WORKLOADS=('workloada' 'workloadb' 'workloadc' 'workloadd' 'workloadf')
-WORKLOADS=('workloadb')
-#WORKLOADS=('workloadb' 'workloadc' 'workloadd' 'workloadf')
+TOTAL_RUN="10"
+WORKLOADS=('workloada' 'workloadb' 'workloadc' 'workloadd' 'workloadf')
 #WORKLOADS=('workloada')
 #DAT_FILES=('1k.dat' '2k.dat' '3k.dat')
-DAT_FILES=('10k.dat')
-#DAT_FILES=('3k.dat')
+#DAT_FILES=('1k.dat' '2k.dat' '10k.dat')
+DAT_FILES=('100.dat' '1k.dat' '10k.dat' '100k.dat')
+#DAT_FILES=('1M.dat')
 
 #WORKLOADS=('workloada' 'workloadb' workloadc' 'workloadd' 'workloadf')
 #DAT_FILES=('1k.dat' '5k.dat' '10k.dat')

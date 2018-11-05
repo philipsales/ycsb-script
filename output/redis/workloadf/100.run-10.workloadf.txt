@@ -1,0 +1,85 @@
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+[OVERALL], RunTime(ms), 1045
+[OVERALL], Throughput(ops/sec), 95.69377990430623
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 197
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 18.851674641148325
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 197
+[TOTAL_GC_TIME_%], Time(%), 18.851674641148325
+[READ], Operations, 100
+[READ], AverageLatency(us), 827.16
+[READ], MinLatency(us), 159
+[READ], MaxLatency(us), 25263
+[READ], 95thPercentileLatency(us), 2145
+[READ], 99thPercentileLatency(us), 3571
+[READ], Return=OK, 100
+[READ-MODIFY-WRITE], Operations, 48
+[READ-MODIFY-WRITE], AverageLatency(us), 1053.9375
+[READ-MODIFY-WRITE], MinLatency(us), 346
+[READ-MODIFY-WRITE], MaxLatency(us), 6235
+[READ-MODIFY-WRITE], 95thPercentileLatency(us), 4435
+[READ-MODIFY-WRITE], 99thPercentileLatency(us), 6235
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1570.0
+[CLEANUP], MinLatency(us), 1570
+[CLEANUP], MaxLatency(us), 1570
+[CLEANUP], 95thPercentileLatency(us), 1570
+[CLEANUP], 99thPercentileLatency(us), 1570
+[UPDATE], Operations, 48
+[UPDATE], AverageLatency(us), 410.1666666666667
+[UPDATE], MinLatency(us), 109
+[UPDATE], MaxLatency(us), 3149
+[UPDATE], 95thPercentileLatency(us), 1410
+[UPDATE], 99thPercentileLatency(us), 3149
+[UPDATE], Return=OK, 48

@@ -1,0 +1,91 @@
+mongo client connection created with mongodb://localhost:27017/ycsb?w=1
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+[OVERALL], RunTime(ms), 1638
+[OVERALL], Throughput(ops/sec), 61.05006105006105
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 245
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 14.957264957264957
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 245
+[TOTAL_GC_TIME_%], Time(%), 14.957264957264957
+[READ], Operations, 100
+[READ], AverageLatency(us), 3580.6
+[READ], MinLatency(us), 939
+[READ], MaxLatency(us), 97279
+[READ], 95thPercentileLatency(us), 5807
+[READ], 99thPercentileLatency(us), 15199
+[READ], Return=OK, 100
+[READ-MODIFY-WRITE], Operations, 53
+[READ-MODIFY-WRITE], AverageLatency(us), 8311.207547169812
+[READ-MODIFY-WRITE], MinLatency(us), 3150
+[READ-MODIFY-WRITE], MaxLatency(us), 54367
+[READ-MODIFY-WRITE], 95thPercentileLatency(us), 17103
+[READ-MODIFY-WRITE], 99thPercentileLatency(us), 23935
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 7458.0
+[CLEANUP], MinLatency(us), 7456
+[CLEANUP], MaxLatency(us), 7459
+[CLEANUP], 95thPercentileLatency(us), 7459
+[CLEANUP], 99thPercentileLatency(us), 7459
+[UPDATE], Operations, 53
+[UPDATE], AverageLatency(us), 5381.0
+[UPDATE], MinLatency(us), 1582
+[UPDATE], MaxLatency(us), 50175
+[UPDATE], 95thPercentileLatency(us), 9991
+[UPDATE], 99thPercentileLatency(us), 14119
+[UPDATE], Return=OK, 53

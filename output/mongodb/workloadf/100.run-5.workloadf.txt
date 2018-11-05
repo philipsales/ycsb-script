@@ -1,0 +1,79 @@
+mongo client connection created with mongodb://localhost:27017/ycsb?w=1
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+doTransactionReadModifyWrite
+[OVERALL], RunTime(ms), 1482
+[OVERALL], Throughput(ops/sec), 67.47638326585695
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 250
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 16.869095816464238
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 250
+[TOTAL_GC_TIME_%], Time(%), 16.869095816464238
+[READ], Operations, 100
+[READ], AverageLatency(us), 3474.63
+[READ], MinLatency(us), 968
+[READ], MaxLatency(us), 87295
+[READ], 95thPercentileLatency(us), 7187
+[READ], 99thPercentileLatency(us), 10287
+[READ], Return=OK, 100
+[READ-MODIFY-WRITE], Operations, 41
+[READ-MODIFY-WRITE], AverageLatency(us), 8929.560975609756
+[READ-MODIFY-WRITE], MinLatency(us), 4236
+[READ-MODIFY-WRITE], MaxLatency(us), 67647
+[READ-MODIFY-WRITE], 95thPercentileLatency(us), 12791
+[READ-MODIFY-WRITE], 99thPercentileLatency(us), 67647
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 9388.0
+[CLEANUP], MinLatency(us), 9384
+[CLEANUP], MaxLatency(us), 9391
+[CLEANUP], 95thPercentileLatency(us), 9391
+[CLEANUP], 99thPercentileLatency(us), 9391
+[UPDATE], Operations, 41
+[UPDATE], AverageLatency(us), 5848.268292682927
+[UPDATE], MinLatency(us), 2154
+[UPDATE], MaxLatency(us), 60159
+[UPDATE], 95thPercentileLatency(us), 8839
+[UPDATE], 99thPercentileLatency(us), 60159
+[UPDATE], Return=OK, 41

@@ -1,0 +1,25 @@
+mongo client connection created with mongodb://localhost:27017/ycsb?w=1
+[OVERALL], RunTime(ms), 267974
+[OVERALL], Throughput(ops/sec), 3731.705314694709
+[TOTAL_GCS_PS_Scavenge], Count, 27
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 771
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.28771447976296205
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 27
+[TOTAL_GC_TIME], Time(ms), 771
+[TOTAL_GC_TIME_%], Time(%), 0.28771447976296205
+[READ], Operations, 1000000
+[READ], AverageLatency(us), 264.176202
+[READ], MinLatency(us), 163
+[READ], MaxLatency(us), 127359
+[READ], 95thPercentileLatency(us), 442
+[READ], 99thPercentileLatency(us), 687
+[READ], Return=OK, 1000000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 4098.0
+[CLEANUP], MinLatency(us), 4096
+[CLEANUP], MaxLatency(us), 4099
+[CLEANUP], 95thPercentileLatency(us), 4099
+[CLEANUP], 99thPercentileLatency(us), 4099
