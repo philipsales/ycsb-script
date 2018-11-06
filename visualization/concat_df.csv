@@ -859,7 +859,7 @@
 857,run-7,Redis,workload f,10000,10k,OVERALL,Throughput(ops/sec),1606.9419893941827,RunTime(ms),6.223
 858,run-8,Redis,workload f,10000,10k,OVERALL,Throughput(ops/sec),2929.973630237328,RunTime(ms),3.413
 859,run-9,Redis,workload f,10000,10k,OVERALL,Throughput(ops/sec),2922.267679719462,RunTime(ms),3.422
-860,run-1,Redis,workload f,100000,100K,OVERALL,Throughput(ops/sec),3821.753420469311,RunTime(ms),26.166
+860,run-1,Redis,workload f,100000,100K,OVERALL,Throughput(ops/sec),3821.753420469311,RunTime(ms),108.8
 861,run-10,Redis,workload f,100000,100K,OVERALL,Throughput(ops/sec),4824.857666698832,RunTime(ms),20.726
 862,run-2,Redis,workload f,100000,100K,OVERALL,Throughput(ops/sec),3633.1928498764723,RunTime(ms),27.524
 863,run-3,Redis,workload f,100000,100K,OVERALL,Throughput(ops/sec),3621.351488375462,RunTime(ms),27.614
