@@ -14,13 +14,16 @@ OUTPUT_DIR="$RESULTS_DIR/$DB"
 mkdir -p $OUTPUT_DIR
 
 echo ${DAT_FILES[*]}
+echo $OUTPUT_DIR 
 
 for dat_file in ${DAT_FILES[*]}
 do
     DAT_FILE=$dat_file
 
-    counter=2
+    counter=10
     echo $TOTAL_RUN
+    echo $DAT_FILE
+    echo $counter
 
     until [ $counter -gt $TOTAL_RUN ]
     do
