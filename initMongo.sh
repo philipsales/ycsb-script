@@ -19,7 +19,7 @@ for dat_file in ${DAT_FILES[*]}
 do
     DAT_FILE=$dat_file
 
-    counter=10
+    counter=1
     echo $TOTAL_RUN
 
     until [ $counter -gt $TOTAL_RUN ]
@@ -31,8 +31,17 @@ do
         
         for workload in ${WORKLOADS[*]}
         do
-            #workload A to D
-            runtask "$OUTPUT_DIR" "$DB" "$counter" "$DAT_FILE" "$workload"
+            if [ $workload == "workloade" ]
+            then
+              cleartable
+              wait
+              loaddata "$OUTPUT_DIR" "$DB" "$counter" "$DAT_FILE"
+              wait
+              runtask "$OUTPUT_DIR" "$DB" "$counter" "$DAT_FILE" "$workload"
+            else
+              runtask "$OUTPUT_DIR" "$DB" "$counter" "$DAT_FILE" "$workload"
+            fi
+
             wait
         done
         ((counter++))
