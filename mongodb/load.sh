@@ -20,6 +20,8 @@ function loaddata() {
 
     . $SETTINGS_DIR/$DB.cfg
     cd $YCSB_BIN
+    echo $YCSB_BIN
+    echo $YCSB_DIR
 
     echo '---start script----'
     echo "$COMMAND $DB  -P workloads/workloada -P $SETTINGS_DIR/$DAT_FILE -s -p $HOSTS  -p $PORT  > $RESULT_FILE  -src $DATA_DIR" 

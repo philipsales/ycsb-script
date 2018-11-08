@@ -1,4 +1,4 @@
-[OVERALL], RunTime(ms), 324675
+[OVERALL], RunTime(ms), 1024675
 [OVERALL], Throughput(ops/sec), 3080.00308000308
 [TOTAL_GCS_PS_Scavenge], Count, 220
 [TOTAL_GC_TIME_PS_Scavenge], Time(ms), 2236

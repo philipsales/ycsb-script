@@ -10,6 +10,7 @@ TOTAL_RUN=$TOTAL_RUN
 . $DB/load.sh
 . $DB/run.sh
 
+
 OUTPUT_DIR="$RESULTS_DIR/$DB"
 mkdir -p $OUTPUT_DIR
 
